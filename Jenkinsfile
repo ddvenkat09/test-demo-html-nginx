@@ -12,8 +12,7 @@ pipeline {
 
     post {
         success {
-            // Clean up workspace and temporary files
-            cleanWs()
+            echo 'Deployment successful'
         }
     }
 }
